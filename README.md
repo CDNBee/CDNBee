@@ -6,16 +6,6 @@
 
 http://cdnbee.com/pr
 
-[code]
-.
-├── jquery                    # ... 库名
-│   ├── 1.8.3                 # ... 版本号
-│   |   └── jquery.min.js     # ... 文件名，不带版本
-│   └── 1.9.1
-│       └── jquery.min.js
-└── package.json              # ... 最新版本文件的描述
-[/code]
-
 # 更新开源库
 
 理论上我们自动更新库的版本文件，并且不会删除旧版本，但如果你在 <a href="http://cdnbee.com">CDNBee.com</a> 找不到最新的版本，则可以通过往该库中添加一个版本目录，并且修改相应的 package.json 文件，利用 Pull Request 来提醒我们。
