@@ -19,3 +19,4 @@ http://cdnbee.com/pr
 维护者：<a href="https://github.com/helantao">Henry</a>
 
 此仓库由国内优秀的云存储服务商 <a href="https://qiniu.com">七牛云存储</a> 提供存储和加速赞助。同步国外 CDNJS 源站，同时由国内开源贡献值提交其它有价值的库。感谢所有开源库作者和挖掘者的努力。
+
