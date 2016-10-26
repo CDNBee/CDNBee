@@ -1,0 +1,10 @@
+{
+  "author": "helantao (http://github.com/helantao)",
+  "name": "cdnbee",
+  "version": "0.1.0",
+  "homepage": "http://cdnbee.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cdnbee/cdnbee.git"
+  }
+}
