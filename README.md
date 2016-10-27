@@ -4,8 +4,6 @@
 
 # 如何提交开源库
 
-http://cdnbee.com/pr
-
 <a href="https://github.com/cdnbee/cdnbee" target="_blank">Fork 这个仓库</a>，在 libs/ 下新建一个目录，这个目录下可以有多个版本（至少一个版本）如：
 
 <pre>
@@ -30,24 +28,28 @@ http://cdnbee.com/pr
 
   // 其他
   "description": "项目简介",
-  "homepage": "项目主页，如 http://staticfile.org",
+  "homepage": "项目主页，如 http://cdnbee.com",
   "keywords": [],
   "maintainers": [
     {
       "name": "作者/维护者",
-      "web": "http://staticfile.org",
-      "mail": "trimidea@gmail.com"
+      "web": "http://cdnbee.com",
+      "mail": "cdnbee@yeah.net"
     }
   ],
   "repositories": [
     {
       // svn 等
       "type": "git",
-      "url": "https://github.com/staticfile/static"
+      "url": "https://github.com/cdnbee/cdnbee"
     }
   ]
 }
 </pre>
+
+然后给这个仓库提交 Pull Request。理论上我们会用最快的速度验证、审核这个库。一旦 Pull Request 被 Merge，则马上可以能过 CDN 访问。
+
+为了保证存放在CDN上开源库的质量，我们建议提交的仓库有一定的关注度（包括Github的star，其他仓库平台的收藏数量等可参考数值），目前建议这个数量在20以上。
 
 # 更新开源库
 
