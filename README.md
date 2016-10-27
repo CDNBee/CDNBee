@@ -6,6 +6,8 @@
 
 http://cdnbee.com/pr
 
+<a href="https://github.com/cdnbee/cdnbee" target="_blank">Fork 这个仓库</a>，在 libs/ 下新建一个目录，这个目录下可以有多个版本（至少一个版本）如：
+
 <pre>
 .
 ├── jquery                    # ... 库名
@@ -14,6 +16,37 @@ http://cdnbee.com/pr
 │   └── 1.9.1
 │       └── jquery.min.js
 └── package.json              # ... 最新版本文件的描述
+</pre>
+
+编辑 package.json 描述文件，这个文件描述最新版本的信息。具体写法请参照：libs/typo.css/package.json
+
+<pre>
+{
+  // 这三项让你的文件能正常被索引到
+  // 项目名要与文件夹名一致
+  "name": "项目名",
+  "filename": "主文件名，比如 XYZ.js",
+  "version": "1.0",
+
+  // 其他
+  "description": "项目简介",
+  "homepage": "项目主页，如 http://staticfile.org",
+  "keywords": [],
+  "maintainers": [
+    {
+      "name": "作者/维护者",
+      "web": "http://staticfile.org",
+      "mail": "trimidea@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      // svn 等
+      "type": "git",
+      "url": "https://github.com/staticfile/static"
+    }
+  ]
+}
 </pre>
 
 # 更新开源库
