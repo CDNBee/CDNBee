@@ -6,7 +6,7 @@
 
 http://cdnbee.com/pr
 
-<code>
+<pre>
 .
 ├── jquery                    # ... 库名
 │   ├── 1.8.3                 # ... 版本号
@@ -14,7 +14,7 @@ http://cdnbee.com/pr
 │   └── 1.9.1
 │       └── jquery.min.js
 └── package.json              # ... 最新版本文件的描述
-</code>
+</pre>
 
 # 更新开源库
 
