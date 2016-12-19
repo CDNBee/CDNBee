@@ -4,7 +4,7 @@
 
 # 如何提交开源库
 
-<a href="https://github.com/CDNBee/CDNBee" target="_blank">Fork 这个仓库</a>，在 libs/ 下新建一个目录，这个目录下可以有多个版本（至少一个版本）如：
+<a href="https://github.com/cdnbee/cdnbee" target="_blank">Fork 这个仓库</a>，在 libs/ 下新建一个目录，这个目录下可以有多个版本（至少一个版本）如：
 
 <pre>
 .
@@ -65,5 +65,6 @@
 
 <a href="https://github.com/helantao">Henry</a>
 
-此仓库由中国优秀的云存储服务商 <a href="https://upyun.com">UPYUN</a> 提供存储和加速赞助。同步国外 <a href="https://github.com/cdnjs/cdnjs">CDNJS</a> 和 <a href="https://github.com/jsdelivr/jsdelivr">jsDelivr</a> 源站，同时由国内开源贡献值提交其它有价值的库。感谢所有开源库作者和挖掘者的努力。
+此仓库由中国优秀的云存储服务商 <a href="https://upyun.com">UPYUN</a> 提供存储和加速赞助。同步国外 <a href="https://github.com/cdnjs/cdnjs">CDNJS</a> 和 <a href="https://github.com/jsdelivr/jsdelivr">jsDelivr</a> 源站。
 
+最后，感谢所有开源库作者和挖掘者的努力。
